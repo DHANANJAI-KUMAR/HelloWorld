@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Console.WriteLine(CreateMesaage());
+            Console.WriteLine("ADDDED BY DJ");
+
         }
+
+        public static string CreateMesaage()
+        {
+            return "Hello World";
+        }
+
     }
 }
